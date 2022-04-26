@@ -272,7 +272,7 @@ p {
 
 .interest ul li {
   list-style: none;
-  color: #f2cff5;
+  color: #4e0c4e;
   font-weight: 500;
   margin: 10px 0;
 }
@@ -320,5 +320,9 @@ p {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
+}
+
+#contact h2 {
+  color: #4e0c4e;
 }
 /*# sourceMappingURL=styles.css.map */
