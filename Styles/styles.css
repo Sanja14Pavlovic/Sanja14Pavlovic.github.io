@@ -109,6 +109,11 @@ body {
   cursor: pointer;
 }
 
+.contactInfo ul li a {
+  text-decoration: none;
+  color: #c080c0;
+}
+
 .contactInfo ul li .icon {
   display: inline-block;
   width: 30px;

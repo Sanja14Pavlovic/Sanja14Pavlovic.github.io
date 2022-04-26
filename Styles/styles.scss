@@ -90,6 +90,10 @@ body {
   margin: 10px 0;
   cursor: pointer;
 }
+.contactInfo ul li a{
+  text-decoration: none;
+  color:rgb(192, 128, 192);
+}
 
 .contactInfo ul li .icon {
   display: inline-block;
@@ -276,4 +280,3 @@ p {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
