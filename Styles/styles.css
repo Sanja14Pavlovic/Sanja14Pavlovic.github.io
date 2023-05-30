@@ -277,6 +277,18 @@ p {
   .interest ul {
     grid-template-columns: repeat(2, 1fr);
   }
+  .contactInfo {
+    text-align: center;
+  }
+  #cont_holder {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .about.interest {
+    text-align: center;
+  }
 }
 @media (max-width: 600px) {
   .about .box {
@@ -299,7 +311,7 @@ p {
     flex-direction: column;
   }
 }
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .contactInfo {
     text-align: center;
   }
@@ -311,5 +323,5 @@ p {
   }
   .about.interest {
     text-align: center;
-  }
-}/*# sourceMappingURL=styles.css.map */
+  } 
+}*/
