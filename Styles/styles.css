@@ -111,7 +111,7 @@ body {
 
 .contactInfo ul li a {
   text-decoration: none;
-  color: #c080c0;
+  color: #e2e2e2;
 }
 
 .contactInfo ul li .icon {
@@ -122,7 +122,7 @@ body {
 }
 
 .contactInfo ul li span {
-  color: #e6c4e6;
+  color: #e2e2e2;
   font-weight: 300;
 }
 
@@ -217,7 +217,7 @@ p {
 
 .about .box .year_company h5 {
   text-transform: uppercase;
-  color: #b8b5b5;
+  color: #7b448a;
   font-weight: 600;
 }
 
@@ -244,7 +244,7 @@ p {
 
 .skills .box h4 {
   text-transform: uppercase;
-  color: #b8b5b5;
+  color: #a857b8;
   font-weight: 500;
 }
 
@@ -344,4 +344,47 @@ p {
   padding: 1%;
   color: #4e0c4e;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.proj-pic img{
+  width:60%;
+  height: 60%;
+}
+.interest{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 425px){
+  .interest{
+    display: flex;
+    flex-direction:column;
+  }
+}
+@media (max-width: 992px){
+    .contactInfo{
+    text-align: center;
+  }
+  #cont_holder{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  .about.interest{
+    text-align: center;
+  }
+}
+.space{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.mess{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#button{
+  width: 70%;
+}
+.form{
+  width: 70%;
+  text-align: center;
+}

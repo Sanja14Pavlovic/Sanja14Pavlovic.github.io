@@ -179,31 +179,48 @@
           </div>
         </div>
 
+        <h2 class="title2">Projects</h2>
         <div class="about interest">
-          <h2 class="title2">Interest</h2>
-          <ul>
-            <li><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
-            <li><i class="fa fa-smile-o" aria-hidden="true"></i>Acting</li>
-            <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
-            <li><i class="fa fa-cutlery" aria-hidden="true"></i>Cooking</li>
-          </ul>
+            <div class="proj">
+              <h4>Project 1</h4>
+              <p>HTML, CSS, JS</p>
+              <div class="proj-pic">
+                <a href="https://sanja14pavlovic.github.io/JSsite.github.io/index.html"><img src="pictures/cakeZone.png"></a>
+              </div>
+            </div>  
+            <div class="proj">
+              <h4>Project 2</h4>
+              <p>HTML,BOOTRSTAP 5, CSS</p>
+              <div class="proj-pic">
+                <a href="https://sanja14pavlovic.github.io/sanjapavlovic.github.io/index.html"><img src="pictures/menjacnica.png"></a>
+              </div>
+            </div> 
         </div>
         <div id="contact" class="region">
-          <h2>Send me a message</h2>
+          <h2>Contact me</h2>
           <div id="cont_holder">
               <div id="send">
-                  <form method="post" action="message.php" name="message" id="message">
-                      <div class="question">
-                          <label for="messagee"></label>
-                          <textarea name="messagee" id="messagee" placeholder="Type message" required></textarea>
+                <div id="form-holder">
+                  <form>
+                      <div class="space">
+                          <input type="text" class="text form" placeholder="Name" required="required"/>
                       </div>
-                      <div class="question">
-                        <input type="submit" value="Send" />
-                        <input type="reset" value="Delete" />
-                        <div class="cleaner"></div>
+                      <div class="space">
+                          <input type="text" class="text form" placeholder="Surname" required="required"/>
+                      </div>
+                      <div class="space">
+                          <input type="email" class="mail form" placeholder="E-mail" required="required"/>
+                      </div>
+                      <div class="mess">
+                          <label>Send a message:</label></br>
+                          <textarea name="mess" id="mess" cols="52" rows="4"></textarea>
+                      </div>
+                      <div class="btn">
+                        <input type="submit" id="button" value="Send"/>
                       </div>
                   </form>
                 </div>
+              </div>
             </div>
         </div>
           
